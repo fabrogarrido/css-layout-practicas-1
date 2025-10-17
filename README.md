@@ -39,11 +39,6 @@ css-layout-practicas-1/
 - HTML5  
 - CSS3 (Flexbox y Grid)  
 
----
-
-## 🌐 Demo (GitHub Pages)
-
-👉 [Ver ejercicios en vivo](https://fabrogarrido.github.io/css-layout-practicas-1/)  
 
 ---
 
