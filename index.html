@@ -5,12 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Patrones RWD – Demos</title>
   <style>
-    *{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0b0f14;color:#e6edf3}
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      background:#0b0f14;
+      color:#e6edf3
+    }
     .wrap{max-width:1100px;margin:0 auto;padding:2rem 1rem}
-    h1{margin:0 0 .75rem} p{color:#9fb2c3;margin:0 0 1.5rem}
-    .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-    .card{display:block;padding:14px 16px;background:#101823;border:1px solid #1e2a36;border-radius:12px;text-decoration:none;color:inherit}
-    .card:hover{border-color:#2f91ff;transform:translateY(-1px);transition:.15s}
+    h1{margin:0 0 .75rem}
+    p{color:#9fb2c3;margin:0 0 1.5rem}
+    .grid{
+      display:grid;
+      gap:12px;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr))
+    }
+    .card{
+      display:block;
+      padding:14px 16px;
+      background:#101823;
+      border:1px solid #1e2a36;
+      border-radius:12px;
+      text-decoration:none;
+      color:inherit;
+      transition:.15s
+    }
+    .card:hover{border-color:#2f91ff;transform:translateY(-2px)}
     .tag{font:12px/1 ui-monospace,Menlo,Consolas,monospace;color:#8fb9ff}
     .title{font-weight:700;margin:.35rem 0 .1rem}
     .desc{margin:0;color:#a9b8c7;font-size:.95rem}
@@ -34,8 +54,8 @@
       <a class="card" href="./10-con_sidebar_flexbox/"><div class="tag">10</div><div class="title">Con sidebar (Flexbox)</div><p class="desc">Contenido + barra lateral.</p></a>
       <a class="card" href="./11-layout_shifter_css_grid/"><div class="tag">11</div><div class="title">Layout Shifter (Grid)</div><p class="desc">Reacomodo entre breakpoints.</p></a>
       <a class="card" href="./12-layout_shifter_flexbox/"><div class="tag">12</div><div class="title">Layout Shifter (Flexbox)</div><p class="desc">Reacomodo entre breakpoints.</p></a>
-      <a class="card" href="./13-mostly_fluid/"><div class="tag">13</div><div class="title">Mostly Fluid</div><p class="desc">Fluido con pocos quiebres.</p></a>
-      <a class="card" href="./14-tiny_tweaks/"><div class="tag">14</div><div class="title">Tiny Tweaks</div><p class="desc">Micro ajustes por tamaño.</p></a>
+      <a class="card" href="./13-tiny_tweaks/"><div class="tag">13</div><div class="title">Tiny Tweaks</div><p class="desc">Micro ajustes por tamaño.</p></a>
+      <a class="card" href="./14-mostly_fluid/"><div class="tag">14</div><div class="title">Mostly Fluid</div><p class="desc">Fluido con pocos quiebres.</p></a>
     </section>
   </main>
 </body>
