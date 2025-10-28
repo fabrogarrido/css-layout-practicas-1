@@ -7,22 +7,24 @@ Cada carpeta representa un patrón de diseño distinto, aplicado para crear estr
 
 ## 📁 Contenido del repositorio
 
-| Nº | Carpeta | Descripción | Tecnologías |
-|----|----------|--------------|--------------|
-| 01 | simple_fluid | Diseño fluido básico — el ancho del contenido se adapta a la ventana. | CSS básico |
-| 02 | column_drop | Las columnas se apilan cuando el viewport se reduce. | CSS básico |
-| 03 | layout_shifter | Cambia la posición de los elementos entre breakpoints. | CSS básico |
-| 04 | tiny_tweaks | Ajustes mínimos de estilos según tamaño de pantalla. | CSS básico |
-| 05 | mostly_fluid | Layout principal fluido con algunos puntos de quiebre fijos. | CSS básico |
-| 06 | con_sidebar | Layout con una barra lateral fija y contenido fluido. | CSS básico |
-| 07 | con_sidebar_grid | Versión con **CSS Grid**. | CSS Grid |
-| 08 | con_sidebar_flexbox | Versión con **Flexbox**. | Flexbox |
-| 09 | con_sidebar_css_grid | Sidebar + contenido principal usando **Grid**, estructura moderna y semántica. | CSS Grid |
-| 10 | con_sidebar_flexbox | Sidebar + contenido principal con **Flexbox**, flexible y adaptable. | Flexbox |
-| 11 | layout_shifter_css_grid | Reacomodo dinámico de columnas usando **CSS Grid**. | CSS Grid |
-| 12 | layout_shifter_flexbox | Reacomodo dinámico de columnas usando **Flexbox**. | Flexbox |
-| 13 | mostly_fluid | Patrón fluido con ajustes mínimos entre breakpoints. | CSS |
-| 14 | tiny_tweaks | Microajustes tipográficos y espaciales. | CSS |
+
+| Nº | Carpeta                         | Descripción                                  | Tecnologías |
+|----|---------------------------------|----------------------------------------------|-------------|
+| 01 | 01-2columnas_iguales_css_grid   | 2 columnas iguales con Grid.                 | CSS Grid    |
+| 02 | 02-2columnas_iguales_flexbox    | 2 columnas iguales con Flexbox.              | Flexbox     |
+| 03 | 03-3columnas_iguales_css_grid   | 3 columnas iguales con Grid.                 | CSS Grid    |
+| 04 | 04-3columnas_iguales_flexbox    | 3 columnas iguales con Flexbox.              | Flexbox     |
+| 05 | 05-3columnas_css_grid           | 3 columnas (variación) con Grid.             | CSS Grid    |
+| 06 | 06-3columnas_flexbox            | 3 columnas (variación) con Flexbox.          | Flexbox     |
+| 07 | 07-column_drop_css_grid         | Column Drop con Grid.                        | CSS Grid    |
+| 08 | 08-column_drop_flexbox          | Column Drop con Flexbox.                     | Flexbox     |
+| 09 | 09-con_sidebar_css_grid         | Layout con sidebar usando Grid.              | CSS Grid    |
+| 10 | 10-con_sidebar_flexbox          | Layout con sidebar usando Flexbox.           | Flexbox     |
+| 11 | 11-layout_shifter_css_grid      | Layout Shifter con Grid.                     | CSS Grid    |
+| 12 | 12-layout_shifter_flexbox       | Layout Shifter con Flexbox.                  | Flexbox     |
+| 13 | 13-mostly_fluid                 | Patrón Mostly Fluid.                         | CSS         |
+| 14 | 14-tiny_tweaks                  | Tiny Tweaks (micro ajustes).                 | CSS         |
+
 
 ---
 
