@@ -43,6 +43,10 @@ Cada ejercicio refuerza conceptos fundamentales de adaptabilidad, proporciones, 
 
 ---
 
+### 🔗 [Ver los ejemplos online en GitHub Pages]([https://tusitio.github.io/nombre-del-repo/](https://fabrogarrido.github.io/css-layout-practicas-1/))
+
+---
+
 ### 👨‍💻 Autor
 **Fabricio Garrido**  
 📍 Buenos Aires, Argentina  
