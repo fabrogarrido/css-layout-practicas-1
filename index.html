@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Patrones RWD – Demos</title>
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      background:#0b0f14;
+      color:#e6edf3
+    }
+    .wrap{max-width:1100px;margin:0 auto;padding:2rem 1rem}
+    h1{margin:0 0 .75rem}
+    p{color:#9fb2c3;margin:0 0 1.5rem}
+    .grid{
+      display:grid;
+      gap:12px;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr))
+    }
+    .card{
+      display:block;
+      padding:14px 16px;
+      background:#101823;
+      border:1px solid #1e2a36;
+      border-radius:12px;
+      text-decoration:none;
+      color:inherit;
+      transition:.15s
+    }
+    .card:hover{border-color:#2f91ff;transform:translateY(-2px)}
+    .tag{font:12px/1 ui-monospace,Menlo,Consolas,monospace;color:#8fb9ff}
+    .title{font-weight:700;margin:.35rem 0 .1rem}
+    .desc{margin:0;color:#a9b8c7;font-size:.95rem}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Patrones Responsive Web Design — Demos</h1>
+    <p>Elegí un patrón para ver el resultado renderizado.</p>
+
+    <section class="grid">
+      <a class="card" href="./01-2columnas_iguales_css_grid/"><div class="tag">01</div><div class="title">2 columnas iguales (Grid)</div><p class="desc">Grid básico de 2 columnas.</p></a>
+      <a class="card" href="./02-2columnas_iguales_flexbox/"><div class="tag">02</div><div class="title">2 columnas iguales (Flexbox)</div><p class="desc">Flex básico de 2 columnas.</p></a>
+      <a class="card" href="./03-3columnas_iguales_css_grid/"><div class="tag">03</div><div class="title">3 columnas iguales (Grid)</div><p class="desc">Tres columnas con Grid.</p></a>
+      <a class="card" href="./04-3columnas_iguales_flexbox/"><div class="tag">04</div><div class="title">3 columnas iguales (Flexbox)</div><p class="desc">Tres columnas con Flex.</p></a>
+      <a class="card" href="./05-3columnas_css_grid/"><div class="tag">05</div><div class="title">3 columnas (Grid)</div><p class="desc">Variación con Grid.</p></a>
+      <a class="card" href="./06-3columnas_flexbox/"><div class="tag">06</div><div class="title">3 columnas (Flexbox)</div><p class="desc">Variación con Flex.</p></a>
+      <a class="card" href="./07-column_drop_css_grid/"><div class="tag">07</div><div class="title">Column Drop (Grid)</div><p class="desc">Columnas que caen en móvil.</p></a>
+      <a class="card" href="./08-column_drop_flexbox/"><div class="tag">08</div><div class="title">Column Drop (Flexbox)</div><p class="desc">Idem con Flex.</p></a>
+      <a class="card" href="./09-con_sidebar_css_grid/"><div class="tag">09</div><div class="title">Con sidebar (Grid)</div><p class="desc">Contenido + barra lateral.</p></a>
+      <a class="card" href="./10-con_sidebar_flexbox/"><div class="tag">10</div><div class="title">Con sidebar (Flexbox)</div><p class="desc">Contenido + barra lateral.</p></a>
+      <a class="card" href="./11-layout_shifter_css_grid/"><div class="tag">11</div><div class="title">Layout Shifter (Grid)</div><p class="desc">Reacomodo entre breakpoints.</p></a>
+      <a class="card" href="./12-layout_shifter_flexbox/"><div class="tag">12</div><div class="title">Layout Shifter (Flexbox)</div><p class="desc">Reacomodo entre breakpoints.</p></a>
+      <a class="card" href="./13-tiny_tweaks/"><div class="tag">13</div><div class="title">Tiny Tweaks</div><p class="desc">Micro ajustes por tamaño.</p></a>
+      <a class="card" href="./14-mostly_fluid/"><div class="tag">14</div><div class="title">Mostly Fluid</div><p class="desc">Fluido con pocos quiebres.</p></a>
+    </section>
+  </main>
+</body>
+</html>
