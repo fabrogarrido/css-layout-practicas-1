@@ -1,55 +1,51 @@
-# Prácticas de CSS Layout (Grid & Flexbox)
+# 🌐 Patrones Responsive Web Design
 
-Repositorio con ejercicios prácticos del curso **Desarrollo Web Completo con HTML5, CSS3, JS, AJAX, PHP y MySQL**.  
-Cada carpeta contiene un mini-layout enfocado en **CSS Grid** o **Flexbox**, aplicando conceptos de columnas, grillas y patrones responsivos.
-
----
-
-## 🚀 Ejercicios incluidos
-
-1. **01-2columnas_iguales_css_grid** — Dos columnas iguales con CSS Grid  
-2. **02-2columnas_iguales_flexbox** — Dos columnas iguales con Flexbox  
-3. **03-3columnas_iguales_css_grid** — Tres columnas iguales con CSS Grid  
-4. **04-3columnas_iguales_flexbox** — Tres columnas iguales con Flexbox  
-5. **05-3columnas_css_grid** — Variaciones de tres columnas con Grid  
-6. **06-3columnas_flexbox** — Variaciones de tres columnas con Flexbox  
-7. **07-column_drop_css_grid** — Patrón *column drop* con Grid  
-8. **08-column_drop_flexbox** — Patrón *column drop* con Flexbox  
+Colección de ejercicios prácticos de **Responsive Web Design**, desarrollados con **HTML5** y **CSS3** (usando Grid y Flexbox).  
+Cada carpeta representa un patrón de diseño distinto, aplicado para crear estructuras web adaptables a cualquier tamaño de pantalla.
 
 ---
 
-## 📂 Estructura
+## 📁 Contenido del repositorio
 
-css-layout-practicas-1/
-├── 01-2columnas_iguales_css_grid/
-├── 02-2columnas_iguales_flexbox/
-├── 03-3columnas_iguales_css_grid/
-├── 04-3columnas_iguales_flexbox/
-├── 05-3columnas_css_grid/
-├── 06-3columnas_flexbox/
-├── 07-column_drop_css_grid/
-├── 08-column_drop_flexbox/
-└── README.md
-
-
----
-
-## 🛠️ Tecnologías
-
-- HTML5  
-- CSS3 (Flexbox y Grid)  
-
+| Nº | Carpeta | Descripción | Tecnologías |
+|----|----------|--------------|--------------|
+| 01 | simple_fluid | Diseño fluido básico — el ancho del contenido se adapta a la ventana. | CSS básico |
+| 02 | column_drop | Las columnas se apilan cuando el viewport se reduce. | CSS básico |
+| 03 | layout_shifter | Cambia la posición de los elementos entre breakpoints. | CSS básico |
+| 04 | tiny_tweaks | Ajustes mínimos de estilos según tamaño de pantalla. | CSS básico |
+| 05 | mostly_fluid | Layout principal fluido con algunos puntos de quiebre fijos. | CSS básico |
+| 06 | con_sidebar | Layout con una barra lateral fija y contenido fluido. | CSS básico |
+| 07 | con_sidebar_grid | Versión con **CSS Grid**. | CSS Grid |
+| 08 | con_sidebar_flexbox | Versión con **Flexbox**. | Flexbox |
+| 09 | con_sidebar_css_grid | Sidebar + contenido principal usando **Grid**, estructura moderna y semántica. | CSS Grid |
+| 10 | con_sidebar_flexbox | Sidebar + contenido principal con **Flexbox**, flexible y adaptable. | Flexbox |
+| 11 | layout_shifter_css_grid | Reacomodo dinámico de columnas usando **CSS Grid**. | CSS Grid |
+| 12 | layout_shifter_flexbox | Reacomodo dinámico de columnas usando **Flexbox**. | Flexbox |
+| 13 | mostly_fluid | Patrón fluido con ajustes mínimos entre breakpoints. | CSS |
+| 14 | tiny_tweaks | Microajustes tipográficos y espaciales. | CSS |
 
 ---
 
-## 📌 Aprendizajes
-
-- Construcción de layouts con **CSS Grid** (`grid-template-columns`, `gap`, `place-items`).  
-- Distribución de elementos con **Flexbox** (`display: flex`, `justify-content`, `align-items`).  
-- Creación de patrones como **column drop** para pantallas chicas.  
-- Organización de proyectos en carpetas y despliegue en **GitHub Pages**.  
+## 🧱 Tecnologías utilizadas
+- **HTML5** para la estructura semántica.
+- **CSS3** para el diseño responsivo.
+- **Flexbox** y **CSS Grid** para el control de layout.
+- **Media Queries** para los breakpoints.
+- **Normalize.css** para mantener consistencia entre navegadores.
 
 ---
 
-### 📝 Notas
-Este repo funciona como **laboratorio de prácticas**. Cada carpeta es independiente y muestra un concepto puntual de layouts.
+## 💡 Objetivo del proyecto
+Comprender los diferentes **patrones de diseño responsive** y cómo aplicarlos correctamente según las necesidades de un sitio web real.  
+Cada ejercicio refuerza conceptos fundamentales de adaptabilidad, proporciones, y buenas prácticas de maquetación.
+
+---
+
+## 🚀 Próximos pasos
+➡️ **Proyecto siguiente:** [Blog de Café ☕](#) — Integración de todos los patrones en una web completa.  
+
+---
+
+### 👨‍💻 Autor
+**Fabricio Garrido**  
+📍 Buenos Aires, Argentina  
